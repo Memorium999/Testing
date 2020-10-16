@@ -4,10 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-<body 
- background-color=”rose”>
-</body>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
  
    <title>Agencia de acompañantes Cortesanas Bogotá</title> 
  
@@ -39,12 +36,19 @@
   * Author: Agenciadeacompañantescortesanasbogota.com
   * License: https://www.agenciadeacompañantescortesanasbogota.com/license/
   ======================================================== -->
+
+  <style>
+    .cursiva {
+      font-family: 'Dancing Script', cursive;
+      font-size: 2em !important;
+    }
+  </style>
 </head>
 
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="header-fixed">
+  <header id="header" class="header-fixed color-header">
     <div class="container">
 
       <div id="logo" class="pull-left">
@@ -54,7 +58,7 @@
       </div>
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="index.html">PRESENTACIÓN GENERAL</a></li>
+          <li class="menu-active"><a href="index.html" class="fucsia">PRESENTACIÓN GENERAL</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -68,47 +72,60 @@
       <div class="container">
         <div class="section-header">
 
-          <h2>Agencia de acompañantes Cortesanas Bogotá</h2>
+          <h1 class="mt-4">Agencia de acompañantes Cortesanas Bogotá</h1>
          
-
-        <div class="row">
-          <div class="col-md-6">
+    <hr>
+        <div class="row mt-5">
+          <div class="col-md-6 mt-5">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Ukc_oBcBMho" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
           <div class="col-md-6">
             <div class="details">
               <h2>
-                Conócenose nuestras cortesanas!</h2>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
+                Conoce a nuestras cortesanas!</h2>
+              <div class="d-flex justify-content-center">
+                <div class="social">
+                  <a href="link"><i class="fa fa-twitter"></i></a>
+                  <a href="link"><i class="fa fa-facebook"></i></a>
+                  <a href="link"><i class="fa fa-google-plus"></i></a>
+                </div>
               </div>
+              
 
               <p>Cortesanas se especializa en contratrar niñas sin ningún tipo experiencia. </p>
 
-              <p>Reserva en cuatro pasos, Ver Catálogo  </p>
+              <p>Reserva en cuatro pasos, <a href="https://cortesanas.co/portafoliocortesanas.php" style="color: blue;"> Ver Catálogo </a>  </p>
 
-              <p>👇👇👇.</p>
 
-              <p> http://bit.ly/ver_catálogo</p>
-                            
-              <p> CATEGORIAS: </p>
+              <div class="text-center mt-4">
+                <h4> CATEGORIAS: </h4>
 
-              <p> Independientes: Son acompañantes con mucha, mediana o poca experiencia, pero con alguna experiencia.  </p>
+              </div>
+              <ul>
+                <li><strong>Independientes</strong>: Son acompañantes con mucha, mediana o poca experiencia, pero con alguna experiencia.</li>
+                <li class="mt-2"><strong>Dependientes</strong>              Manejamos 3 categorías Estándar: 
+                  <ul>
+                    <li>Línea Económica de Cortesanas: <i>Chicas desde 350Mil hasta 720Mil</i> </li>
+                    <li>Básico o intermedio: <i>Chicas desde 740Mil hasta 1'500Mil</i></li>
+                    <li>Cortesanas Premium: <i>Desde 1'500Mil hasta 20millones.</i> </li>
+                  </ul>
+                  
+                  
+                </li>
+              </ul>
+              
              
-              <p> Dependientes: Manejamos 3 categorías: Estándar. Línea Económica de Cortesanas: Chicas desde 350Mil hasta 720Mil
-                Básico o intermedio: Chicas desde 740Mil hasta 1'500Mil y Cortesanas Premium desde 1'500Mil hasta 20millones.
 
-                <p>Para decirte que ofrecemos en cada una de nuestras 3 categorías, por favor llámanos a nuestras lineas de atención 
-                abiertas desde las 9:00am hasta las 10:30pm, 3144323354 o 3214178064 </p>
 
-              <p>"CORTESANAS, EL MEJOR ACOMPAÑAMIENTO" </p>
             </div>
           </div>
-
-        </div>
+          <p class="text-muted">Para decirte que ofrecemos en cada una de nuestras 3 categorías, por favor llámanos a nuestras lineas de atención 
+            abiertas desde las 9:00am hasta las 10:30pm, 3144323354 o 3214178064 </p>
+            <div class="d-flex justify-content-center">
+            </div>
+          </div>
+          <p class="cursiva text-center text-dark">"Cortesanas, el mejor acompañamiento" </p>
       </div>
 
     </section>
@@ -116,26 +133,26 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
+  <footer id="footer" class="gray" style="background-color: #eee;">
+    <div class="footer-top gray" style="background-color: #eee;" >
+      <div class="container gray">
+        <div class="row ">
 
-          <div class="col-lg-3 col-md-6 footer-info">
-            <img src="assets/img/Logo.jpg" alt="Agencia de acompañantes Cortesanas Bogotá">
-            <p>Agencia de damas de compañia sin experiencia y con experiencia, modelos, actrices y profesionales.</p>
+          <img src="assets/img/Logo.jpg" width="200px" height="200px" alt="Agencia de acompañantes Cortesanas Bogotá">
+          <div class="col-lg-3 col-md-6 footer-info gray">
+            <p class="text-dark"  >Agencia de damas de compañia sin experiencia y con experiencia, modelos, actrices y profesionales.</p>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <!-- <div class="col-lg-3 col-md-6 footer-links">
             <h4>Enlances</h4>
             <ul>
               <li><i class="fa fa-angle-right"></i> <a href="#">Presentación general</a></li>
                             <li><i class="fa fa-angle-right"></i> <a href="#">Politica de privacidad</a></li>
             </ul>
-          </div>
+          </div> -->
 
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contacto </h4>
+          <div class="col-lg-5 col-md-6 footer-contact">
+            <h4 class="text-dark">Contacto </h4>
             <p>
                            Bogota D.C. 110111<br>
               Colombia <br>
@@ -156,7 +173,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container gray">
       <div class="copyright">
         &copy; 2020 Copyright <strong>Agencia de acompañantes Cortesanas Bogotá.</strong> Todos los derechos reservados
       </div>

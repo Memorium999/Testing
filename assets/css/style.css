@@ -14,6 +14,15 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.fucsia {
+  color: #f82249 !important;
+}
+
+.gray {
+  background-color: #eeeeee;
+  color: #2f3138 !important;
+}
+
 a {
   color: #f82249;
   transition: 0.5s;
@@ -40,6 +49,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-page {
   margin-top: 70px;
+}
+
+.color-header {
+  background-color: #eeeeee !important;
 }
 
 /* Prelaoder */
